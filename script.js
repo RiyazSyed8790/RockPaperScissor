@@ -14,6 +14,7 @@ function gameLogic(userInput,computerinput){
         if(computerinput==='paper'){
             document.getElementById("result").innerText="You Lose";
             console.log('You lose');
+            
             cScore++;
             return;
         }
@@ -41,11 +42,13 @@ function gameLogic(userInput,computerinput){
    if(userInput==='scissor'){
        if(computerinput==='rock'){
            console.log('You lose');
+           document.getElementById("result").innerText="You Lose";
            cScore++;
            return;
        }
        else{
            console.log('You win');
+           document.getElementById("result").innerText="You Win";
            pScore++;
            return;
        }
@@ -61,7 +64,7 @@ function check(a){
     document.getElementById("computer-choice").innerText = "Computer chose:" + computerinput ;*/
     
     
-    document.getElementById("user choice").innerText= "You choose:" + userInput;
+    document.getElementById("user-choice").innerText= "You choose:" + userInput ;
     document.getElementById("computer-choice").innerText="Computer choose:" + computerinput ;
     gameLogic(userInput,computerinput);
     computerScore.innerText=cScore;

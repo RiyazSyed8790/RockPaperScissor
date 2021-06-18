@@ -83,7 +83,7 @@ main header h2{
     border: 1px solid rgb(34, 113, 139);
     background-color: rgb(34, 113, 139) ;
     color: rgb(240, 230, 230);
-    letter-spacing: 0.5rem;
+    
     width: 20rem ;
     margin: 0rem auto;
     }
@@ -95,7 +95,7 @@ main header h2{
     border: 1px solid rgb(34, 113, 139);
     background-color: rgb(34, 113, 139) ;
     color: rgb(240, 230, 230);
-    letter-spacing: 0.2rem;
+    letter-spacing: 0rem;
     width: 20rem ;
     margin: 2rem auto;
     cursor: pointer;
@@ -109,6 +109,45 @@ main header h2{
     display: none;
 }
 
+#user-choice{
+    color: rgb(47, 139, 201);
+}
+/*interactive styling start*/
+@media(max-width:768px){
+body{
+ display: block;
+ width: 27.5rem;
+ padding: 5rem 8rem;
+ 
+ 
+}
 
+main{
+    size:inherit;
+    min-width: 0;
+    min-height: 20rem;
+    margin-top: 0rem ;
+}
+main header {
+    display: block;
+    text-align: center;
+    margin: 3rem 0;
+}
+.hands button{
+    border-radius: 100%;
+    /*padding: 1rem 1rem;
+    */margin: 1rem 1rem;
+    border:1px solid rgb(6, 68, 68);
+    font-size: 2.5rem;
+    height: 6rem;
+    width: 6rem;
+} 
 
+.result .game-result{
+    margin-top: 0.25rem;
+}
+
+}
+
+/*interactive styling end*/
  
