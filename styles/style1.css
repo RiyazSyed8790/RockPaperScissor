@@ -149,5 +149,26 @@ main header {
 
 }
 
+@media(max-width:670px){
+    body{
+        background-color: #2a2a72;
+        background-image:none;
+        background-size:contain;
+    }
+    main{
+        border-radius: 50px;
+background: linear-gradient(145deg, #2d2d7a, #262667);
+box-shadow:  32px 32px 64px #191943,
+             -32px -32px 64px #3b3ba1;
+    }
+}
+
+@media(max-width:565px){
+    main{
+        justify-content: center;
+        align-content: center;
+    }
+}
+
 /*interactive styling end*/
  
