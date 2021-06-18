@@ -1,6 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-h2{
-    
+body{
     font-family: 'Staatliches', cursive;
-    
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 98vw;
+
 }
+
+main {
+/* margin-right:2rem;  */ 
+ min-height: 40rem ;
+ min-width: 40rem; 
+ padding: 2rem;
+ border-radius: 24px;
+ /*background: linear-gradient(145deg, #389cbe, #2f83a0);
+ */box-shadow:  30px 30px 60px #215c70,
+              -30px -30px 60px #47c8f4;
+  
+}
+
+main header{
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+main header h1{
+  display: flex;  
+  flex-direction: column;
+  font-size: 2rem;
+  line-height: 1.15;  
+}
+main header h2{
+    font-size: 2rem;
+    line-height: 0;
+    margin-top: 2.5rem;
+}
+
+
+ 
