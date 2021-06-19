@@ -8,7 +8,7 @@ body{
     align-items: center;
     height: 99vh;
     width: 99vw;
-    color: rgb(240, 230, 230);
+    color: rgb(19, 18, 18);
 }
 
 main {
@@ -167,6 +167,9 @@ box-shadow:  32px 32px 64px #191943,
     main{
         justify-content: center;
         align-content: center;
+    }
+    body{
+        color: rgb(240, 230, 230);
     }
 }
 
